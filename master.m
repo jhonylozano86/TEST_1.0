@@ -3,10 +3,15 @@
 A=[1 2 3 4]
 B=[5 6 7 8]
 %Suma%
-C=A+B
+C=A+B'
 %Resta%
-D=B-A
+D=B-A'
 %Producto punto%
-E=A.B
+E=dot(A,B)
 %Producto cruz%
-D=AxB
+%correccion de error, variable D por H%
+%dimension de vectores incorrecta, max 3%
+%renombrar vectores de dimension 3%
+f=[1 2 3]
+g=[5 6 7]
+H=cross(f,g)
