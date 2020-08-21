@@ -3,10 +3,13 @@
 A=[1 2 3 4]
 B=[5;6;7;8]
 %Suma%
-C=A+B
+C=A'+B
 %Resta%
-D=B-A
+D=B'-A
 %Producto punto%
-E=A.B
+E=dot(A,B)
 %Producto cruz%
-D=AxB
+%modificar tamaño de vectores a 3 para producto cruz%
+f=[2 3 4]
+g=[7;6;5]
+H=cross(f,g)
